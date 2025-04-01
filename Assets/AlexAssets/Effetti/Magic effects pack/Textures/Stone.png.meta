@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f9c5d4163716b254faf0a790cde8e1c1
+guid: ad3c6deb60874964aa592b7f1458ac54
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Stone.png
+  uploadId: 733473

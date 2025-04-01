@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 77c4c6b3240264f4ead2fb553c53380b
+guid: cb15b7c714c56904eb8628c669fd8aa7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -133,3 +133,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Circle2.png
+  uploadId: 733473

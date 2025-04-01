@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e349ae8f015203f47b9b1ea69cbd4d0c
+guid: 31273298da45ec54c8505bff93a9f44a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/TechCircle2.png
+  uploadId: 733473

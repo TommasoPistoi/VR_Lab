@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1639acc67d824ff43a92428d30dd4c51
+guid: 52eef6aa133a854489e620987374b364
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Slash.png
+  uploadId: 733473

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: b3ddbfc41c684b44a904986b2895a8f6
+guid: 12a56ee4630040c4eb17ae9707ed4cef
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing
+    circle.prefab
+  uploadId: 733473

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: f8476a82b4277d546bbf9ae06efa9d2d
+guid: 48e196c36363e814bad43a44c92dc11b
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode
+    pink.prefab
+  uploadId: 733473

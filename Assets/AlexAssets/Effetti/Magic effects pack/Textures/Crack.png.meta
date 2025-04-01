@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ec8342d2fbf08b94a84302c67fb91369
+guid: df140764cd277ab4591e380324386729
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Crack.png
+  uploadId: 733473

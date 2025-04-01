@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fa8450a70c3a91341833eb57439a0359
+guid: ede7b7fc6b09fcc41892be0d6935c8cf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Electro.png
+  uploadId: 733473

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42cb7dd18be34c245a410fdc158ed4d7
+guid: 878972c3151f97940b2c53535a0d1ce5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png
+  uploadId: 733473

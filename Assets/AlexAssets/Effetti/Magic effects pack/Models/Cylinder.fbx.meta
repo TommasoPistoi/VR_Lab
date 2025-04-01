@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb62f02e8da02554da657e38f67f77ad
+guid: 4a8c064de5d1b4045a9e9d4ebd5d6575
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -100,3 +100,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
+  uploadId: 733473

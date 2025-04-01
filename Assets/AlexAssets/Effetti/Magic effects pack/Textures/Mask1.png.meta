@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 101a9c36caab7ab49a439619da3e22a5
+guid: c829f3f833484ac45b5b9150cb06631c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png
+  uploadId: 733473

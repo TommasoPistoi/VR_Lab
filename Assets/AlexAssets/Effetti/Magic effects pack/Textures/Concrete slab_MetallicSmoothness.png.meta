@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38d0f0dcb1b248041829d9824c981be7
+guid: a685c8f461a651a46a2631ea3decafae
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -82,3 +82,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+  uploadId: 733473

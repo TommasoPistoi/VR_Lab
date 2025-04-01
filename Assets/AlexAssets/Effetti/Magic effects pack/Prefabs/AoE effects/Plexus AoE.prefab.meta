@@ -1,7 +1,14 @@
 fileFormatVersion: 2
-guid: 58a72c9eab8df45408a80dd1fb5e64c8
+guid: 709b0bd6b0b625249a98409dd7a87343
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Plexus AoE.prefab
+  uploadId: 733473

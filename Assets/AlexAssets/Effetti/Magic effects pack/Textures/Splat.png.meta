@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 930e490c9a1b85f45a2ea3240ecf083f
+guid: 00282aad0def9f942a895c41d7389b8b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Splat.png
+  uploadId: 733473
