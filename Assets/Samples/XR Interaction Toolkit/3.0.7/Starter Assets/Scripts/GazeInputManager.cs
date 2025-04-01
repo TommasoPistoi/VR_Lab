@@ -30,7 +30,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
         /// </summary>
-        protected void Awake()
+        /*protected void Awake()
         {
             // Check if we have eye tracking support
             var inputDeviceList = new List<InputDevice>();
@@ -58,7 +58,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             InputSystem.InputSystem.onDeviceChange += OnDeviceChange;
 
             gameObject.SetActive(m_FallbackIfEyeTrackingUnavailable);
-        }
+        }*/
 
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
