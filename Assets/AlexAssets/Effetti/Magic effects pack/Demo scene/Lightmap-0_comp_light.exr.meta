@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68cbadadf1e97cd449a4c39ab2f09e3a
+guid: 9960b70afbb00c1468c54c31462b736a
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -82,3 +82,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+  uploadId: 733473

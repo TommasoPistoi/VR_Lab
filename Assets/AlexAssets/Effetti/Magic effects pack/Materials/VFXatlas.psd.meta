@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 286246edc50b11843967d4f821b75c96
+guid: 670f1c056a06d7049b90d1fd1e480427
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,3 +94,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd
+  uploadId: 733473

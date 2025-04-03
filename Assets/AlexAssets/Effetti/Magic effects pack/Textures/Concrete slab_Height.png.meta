@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3dc2bde3fd6cabe41a5c4763fc13d8cb
+guid: db368c1c85b12fe48aba6cc9bcd41f43
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -82,3 +82,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+  uploadId: 733473

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4abea2a555878a347ab9fe2e405d06f5
+guid: c4f655f5d01f55547a23a546b58afd04
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -104,3 +104,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Trail67.png
+  uploadId: 733473

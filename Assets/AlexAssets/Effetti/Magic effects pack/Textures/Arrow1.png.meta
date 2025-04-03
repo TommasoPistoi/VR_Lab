@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c5a8b58609284894f813c8a4d1ecb163
+guid: cd95337217b49a143a851ed79a626632
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png
+  uploadId: 733473

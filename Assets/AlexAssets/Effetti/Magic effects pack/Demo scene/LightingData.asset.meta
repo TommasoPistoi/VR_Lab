@@ -1,8 +1,15 @@
 fileFormatVersion: 2
-guid: f5a63a6b7ae793e4294cd51f061308f0
+guid: faa4b86ef3c40464a90105bd7feb5ad9
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 112000002
+  mainObjectFileID: 25800000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+  uploadId: 733473

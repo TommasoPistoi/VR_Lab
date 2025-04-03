@@ -1,7 +1,14 @@
 fileFormatVersion: 2
-guid: a7ba90f2461a4844db7071e88465d528
+guid: 324fc9687c94a5f4585d7728801af43d
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks green.prefab
+  uploadId: 733473

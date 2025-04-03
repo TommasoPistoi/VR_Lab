@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4ad78756afeb5542b43ac9ac8757c6c
+guid: 6cd5e7294f0f7be4aa89e131da9505b4
 TextureImporter:
   fileIDToRecycleName:
     8900000: generatedCubemap
@@ -83,3 +83,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+  uploadId: 733473

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b3ce8b648c64e764f94d802b335c0587
+guid: 640e93060c8b460449dc5d4f16193387
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,3 +130,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+  uploadId: 733473

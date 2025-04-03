@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7979e7cdeaaae6b4189332bb904ef7d2
+guid: ce274bd34d1b1d24f831cdd3e246a4e8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -104,3 +104,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Models/Slash.fbx
+  uploadId: 733473

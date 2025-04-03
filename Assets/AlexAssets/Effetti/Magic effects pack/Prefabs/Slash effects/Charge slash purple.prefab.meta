@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: ffc250806b1b89448801c13b7ddb6f68
+guid: df9374346b76e444dbbb2b019de4da25
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 247933
+  packageName: Magic Effects FREE
+  packageVersion: 1.3.0
+  assetPath: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash
+    purple.prefab
+  uploadId: 733473
