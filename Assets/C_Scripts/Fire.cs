@@ -1,13 +1,27 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class Example : MonoBehaviour
 {
     private float speed = 2f;
     public GameObject Palla;
+    public inputtesting Inputtesting;
+
+    private void Start()
+    {
+        Inputtesting = FindAnyObjectByType<inputtesting>();
+    }
+    
+
+
 
     private void OnTriggerEnter(Collider Palla)
     {
-        if{ GetComponent  }
+       if (Palla.CompareTag ("Left") || Palla.CompareTag("Right") )
+        {
+
+        }
+
 
     }
 }
