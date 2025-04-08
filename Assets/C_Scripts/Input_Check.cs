@@ -13,6 +13,8 @@ public class inputtesting : MonoBehaviour
     public InputActionReference pollice_left;
     public InputActionReference pollice_right;
 
+    public Material newmaterial;
+    public Material oldmaterial;
     public Boolean Trigger_Left_bool = false;
     public Boolean Trigger_Right_bool = false;
     public Boolean Pollice_Left_bool = false;
@@ -22,7 +24,18 @@ public class inputtesting : MonoBehaviour
 
     private void Start()
     {
-
+        
     }
+
+    private void Update()
+    {
+        if (indice_Left.action.IsPressed())
+        {
+            GetComponent<Renderer>().material = newmaterial;
+
+        }
+        else GetComponent<Renderer>().material = oldmaterial;
+    }
+
 
 }
