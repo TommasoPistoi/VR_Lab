@@ -34652,8 +34652,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d9b16b48a6489f4f8ec677759528e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreesPerSecond: 30
-  rotationAxis: {x: 0, y: 1, z: 0}
+  objectsToRotate:
+  - {fileID: 1771883349}
+  rotationAngle: 45
+  LeftButton: {fileID: 0}
+  RightButton: {fileID: 0}
 --- !u!1001 &1774084391
 PrefabInstance:
   m_ObjectHideFlags: 0

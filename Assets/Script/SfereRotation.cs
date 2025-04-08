@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class SfereRotation : MonoBehaviour
 {
-    public float degreesPerSecond = 90f; // Velocità di rotazione in gradi al secondo
-    public Vector3 rotationAxis = Vector3.up; // Asse di rotazione (default: asse Y)
-    private bool isRotating = false; // Variabile per controllare la rotazione
+    public GameObject[] objectsToRotate; // Array di oggetti da ruotare
+    public float rotationAngle = 45f; // Angolo di rotazione
     private inputtesting inputtesting;
-
+    public GameObject LeftButton;
+    public GameObject RightButton;
 
     void Start()
     {
@@ -15,18 +15,25 @@ public class SfereRotation : MonoBehaviour
 
     void Update()
     {
-        if (inputtesting.Indice_Right_bool) // Controlla se il tasto 'P' è premuto
+        //Controlla se un pulsante è premuto
+        if (inputtesting.Indice_Right_bool == LeftButton)
         {
-            isRotating = !isRotating; // Inverte lo stato di rotazione
+            RotateObjects(-rotationAngle);
         }
-
-        if (isRotating)
+        else if (inputtesting.Indice_Right_bool == RightButton)
         {
-            // Calcola la rotazione in base al tempo trascorso
-            float rotationAmount = degreesPerSecond * Time.deltaTime;
+            RotateObjects(rotationAngle);
+        }
+    }
 
-            // Applica la rotazione all'oggetto
-            transform.Rotate(rotationAxis, rotationAmount);
+    void RotateObjects(float angle)
+    {
+        foreach (GameObject obj in objectsToRotate)
+        {
+            if (obj != null)
+            {
+                obj.transform.Rotate(Vector3.forward, angle);
+            }
         }
     }
 }
