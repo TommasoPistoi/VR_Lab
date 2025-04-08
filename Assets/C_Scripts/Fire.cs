@@ -5,7 +5,7 @@ public class Example : MonoBehaviour
 {
     private float speed = 2f;
     public GameObject Palla;
-    public inputtesting Inputtesting;
+    private inputtesting Inputtesting;
 
     private void Start()
     {
@@ -19,7 +19,7 @@ public class Example : MonoBehaviour
     {
        if (Palla.CompareTag ("Left") || Palla.CompareTag("Right") )
         {
-
+            Debug.Log("Ciao");
         }
 
 
