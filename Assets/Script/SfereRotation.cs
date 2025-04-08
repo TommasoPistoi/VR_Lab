@@ -26,13 +26,23 @@ public class SfereRotation : MonoBehaviour
         }
     }
 
+    public void LeftButtonCalled(){
+        RotateObjects(rotationAngle);
+    }
+
+    public void RightButtonCalled(){
+        RotateObjects(-rotationAngle);
+    }
+
+
     void RotateObjects(float angle)
     {
+        Vector3 Up=new Vector3(0,1,0);
         foreach (GameObject obj in objectsToRotate)
         {
             if (obj != null)
             {
-                obj.transform.Rotate(Vector3.forward, angle);
+                obj.transform.Rotate(Up, angle);
             }
         }
     }
