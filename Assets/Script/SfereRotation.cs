@@ -16,11 +16,11 @@ public class SfereRotation : MonoBehaviour
     void Update()
     {
         //Controlla se un pulsante è premuto
-        if (inputtesting.Indice_Right_bool == LeftButton)
+        if (inputtesting.Indice_Left_bool)
         {
             RotateObjects(-rotationAngle);
         }
-        else if (inputtesting.Indice_Right_bool == RightButton)
+        else if (inputtesting.Indice_Right_bool)
         {
             RotateObjects(rotationAngle);
         }
