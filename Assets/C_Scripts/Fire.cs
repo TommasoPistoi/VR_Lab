@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Example : MonoBehaviour
 {
-    private float speed = 2f;
+    
     public GameObject Palla;
     public GameObject Effect;
     private inputtesting Inputtesting;
@@ -16,9 +16,8 @@ public class Example : MonoBehaviour
 
     private void OnTriggerEnter(Collider Palla)
     {
-        if (Palla.CompareTag("Left"))
+        if (Inputtesting.GetComponent<inputtesting>().Pollice_Left_bool == true)
         {
-
             Effect.SetActive(true);
         }
 
