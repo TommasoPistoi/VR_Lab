@@ -4,30 +4,31 @@ using UnityEngine;
 
 public class Example : MonoBehaviour
 {
-    
     public GameObject Palla;
     public GameObject Effect;
+    public GameObject SpawnPosition;
     private inputtesting Inputtesting;
+    public bool Stop;
 
     private void Start()
     {
         Inputtesting = FindAnyObjectByType<inputtesting>();
+        Stop = true;
     }
-
 
     void Update()
     {
-        if (Inputtesting.GetComponent<inputtesting>().Trigger_Left_bool == true)
-        {
-            Effect.SetActive(true);
-          
-        }
-        
 
+        if (Inputtesting.Trigger_Left_bool)
+        {
+            if (Stop == true)
+            {
+
+                Instantiate(Effect, SpawnPosition.transform.position, Quaternion.identity);
+                Stop = false;
+            }
+
+
+        }
     }
 }
-
-
-
-
-       
