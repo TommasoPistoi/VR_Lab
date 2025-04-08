@@ -5,23 +5,28 @@ public class Example : MonoBehaviour
 {
     private float speed = 2f;
     public GameObject Palla;
+    public GameObject Effect;
     private inputtesting Inputtesting;
 
     private void Start()
     {
         Inputtesting = FindAnyObjectByType<inputtesting>();
     }
-    
-
 
 
     private void OnTriggerEnter(Collider Palla)
     {
-       if (Palla.CompareTag ("Left") || Palla.CompareTag("Right") )
+        if (Palla.CompareTag("Left"))
         {
-            Debug.Log("Ciao");
+
+            Effect.SetActive(true);
         }
 
 
     }
 }
+
+
+
+
+       
