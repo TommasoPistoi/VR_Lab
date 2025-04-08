@@ -4810,7 +4810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: 450fc9f672a1c4e41845bbd593798796, type: 3}
       propertyPath: m_Name
-      value: Viola2
+      value: Viola
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: 450fc9f672a1c4e41845bbd593798796, type: 3}
       propertyPath: m_IsActive
@@ -4851,13 +4851,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 224301695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08841ea289c47e544a2fdff385e750ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 56cc4ed77de601841bcbdfdd36ad6da3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Palla: {fileID: 224301696}
   EffectWeak: {fileID: 3437189453494153808, guid: c6bb2405635f9c744ba6eeb46978b91a, type: 3}
-  EffectStrong: {fileID: 0}
-  SpawnPosition: {fileID: 0}
+  EffectStrong: {fileID: 1799142062113034878, guid: 1aba69da02123aa42a1b95fdbf5d0501, type: 3}
+  SpawnPosition: {fileID: 1154035802}
   Stop: 0
 --- !u!1001 &226154385
 PrefabInstance:
@@ -8078,7 +8078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: d39d64a8840f85746bd061e5b9abeed0, type: 3}
       propertyPath: m_Name
-      value: Blu2
+      value: Blu
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: d39d64a8840f85746bd061e5b9abeed0, type: 3}
       propertyPath: m_IsActive
@@ -8119,7 +8119,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 386259094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08841ea289c47e544a2fdff385e750ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e3548bb317f0ad4a9f47209c96685f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Palla: {fileID: 386259095}
@@ -17755,7 +17755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: fc61c6808ad9f1d4f9213d782778450a, type: 3}
       propertyPath: m_Name
-      value: Bianco2
+      value: Bianco
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: fc61c6808ad9f1d4f9213d782778450a, type: 3}
       propertyPath: m_IsActive
@@ -17796,7 +17796,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 948503821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08841ea289c47e544a2fdff385e750ec, type: 3}
+  m_Script: {fileID: 11500000, guid: fe92d21fff788354db337d245326a7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Palla: {fileID: 948503822}
@@ -23634,7 +23634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: 4c64724783eb938428106556fb732ab4, type: 3}
       propertyPath: m_Name
-      value: Rosso2
+      value: Rosso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28928,7 +28928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: 2a7d31870fd41164083e7ef20fd0e34d, type: 3}
       propertyPath: m_Name
-      value: Giallo2
+      value: Giallo
       objectReference: {fileID: 0}
     - target: {fileID: 5679225103647919299, guid: 2a7d31870fd41164083e7ef20fd0e34d, type: 3}
       propertyPath: m_IsActive
@@ -28969,7 +28969,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1470746363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08841ea289c47e544a2fdff385e750ec, type: 3}
+  m_Script: {fileID: 11500000, guid: de8afa07e9bd84240bc481aa2c009d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Palla: {fileID: 1470746364}
