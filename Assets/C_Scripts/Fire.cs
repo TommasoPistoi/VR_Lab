@@ -14,13 +14,16 @@ public class Example : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider Palla)
+    void Update()
     {
-        if (Inputtesting.GetComponent<inputtesting>().Pollice_Left_bool == true)
+        if (Inputtesting.GetComponent<inputtesting>().Trigger_Left_bool == true)
         {
             Effect.SetActive(true);
         }
-
+        else
+        {
+            Effect.SetActive(false);
+        }
 
     }
 }
