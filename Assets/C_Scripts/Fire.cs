@@ -5,7 +5,8 @@ using UnityEngine;
 public class Example : MonoBehaviour
 {
     public GameObject Palla;
-    public GameObject Effect;
+    public GameObject EffectWeak;
+    public GameObject EffectStrong;
     public GameObject SpawnPosition;
     private inputtesting Inputtesting;
     public bool Stop;
@@ -24,7 +25,7 @@ public class Example : MonoBehaviour
             if (Stop == true)
             {
 
-                Instantiate(Effect, SpawnPosition.transform.position, Quaternion.identity);
+                Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
                 Stop = false;
             }
 
