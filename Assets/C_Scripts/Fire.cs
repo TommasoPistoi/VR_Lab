@@ -1,3 +1,4 @@
+using System.Threading;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -19,11 +20,9 @@ public class Example : MonoBehaviour
         if (Inputtesting.GetComponent<inputtesting>().Trigger_Left_bool == true)
         {
             Effect.SetActive(true);
+            Time 
         }
-        else
-        {
-            Effect.SetActive(false);
-        }
+        
 
     }
 }
