@@ -95,6 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3198452979513807020}
+  - component: {fileID: 5660537443275434421}
   m_Layer: 0
   m_Name: Bianco2
   m_TagString: Untagged
@@ -120,7 +121,56 @@ Transform:
   - {fileID: 3683492801557695547}
   - {fileID: 8850630536311096563}
   - {fileID: 4244285977785548302}
+  - {fileID: 3251374079271698472}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5660537443275434421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679225103647919299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe92d21fff788354db337d245326a7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Palla: {fileID: 35010911321911693}
+  EffectWeak: {fileID: 3437189453494153808, guid: d676c1e5e070d624bb06b445384035bd, type: 3}
+  EffectStrong: {fileID: 1799142062113034878, guid: dfc503750ad53154b860e2069b5d72ba, type: 3}
+  SpawnPosition: {fileID: 7459129336722574666}
+  Stop: 0
+--- !u!1 &7459129336722574666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3251374079271698472}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3251374079271698472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459129336722574666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3198452979513807020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &27674368811044072
 PrefabInstance:

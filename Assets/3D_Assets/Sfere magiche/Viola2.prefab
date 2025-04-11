@@ -95,6 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3198452979513807020}
+  - component: {fileID: 9053097329804221680}
   m_Layer: 0
   m_Name: Viola2
   m_TagString: Untagged
@@ -120,7 +121,56 @@ Transform:
   - {fileID: 3683492801557695547}
   - {fileID: 8850630536311096563}
   - {fileID: 4244285977785548302}
+  - {fileID: 6011591744137102166}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9053097329804221680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679225103647919299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56cc4ed77de601841bcbdfdd36ad6da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Palla: {fileID: 35010911321911693}
+  EffectWeak: {fileID: 3437189453494153808, guid: c6bb2405635f9c744ba6eeb46978b91a, type: 3}
+  EffectStrong: {fileID: 1799142062113034878, guid: 1aba69da02123aa42a1b95fdbf5d0501, type: 3}
+  SpawnPosition: {fileID: 8399490979885429628}
+  Stop: 0
+--- !u!1 &8399490979885429628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6011591744137102166}
+  m_Layer: 0
+  m_Name: Spawn (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6011591744137102166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399490979885429628}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.366, y: 0, z: 0.35299993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3198452979513807020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &27674368811044072
 PrefabInstance:
