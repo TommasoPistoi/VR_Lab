@@ -18388,6 +18388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rosso2
       objectReference: {fileID: 0}
+    - target: {fileID: 8055355859532797084, guid: 4c64724783eb938428106556fb732ab4, type: 3}
+      propertyPath: Rotation
+      value: 290
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

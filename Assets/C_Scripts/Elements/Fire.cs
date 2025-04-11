@@ -8,6 +8,7 @@ public class Example : MonoBehaviour
     public GameObject EffectWeak;
     public GameObject EffectStrong;
     public GameObject SpawnPosition;
+    public float Rotation;
     private inputtesting Inputtesting;
     public bool Stop;
 
@@ -24,8 +25,9 @@ public class Example : MonoBehaviour
         {
             if (Stop == true)
             {
-
-                Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f); 
+             
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
                 Stop = false;
             }
 
