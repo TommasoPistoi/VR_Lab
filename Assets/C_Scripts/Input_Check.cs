@@ -22,10 +22,10 @@ public class inputtesting : MonoBehaviour
 
     void Update()
     {
-        if (trigger_Left.action.IsPressed())
+        if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("Aiuto");
             Trigger_Left_bool = true;
-
         }
         else
         {
