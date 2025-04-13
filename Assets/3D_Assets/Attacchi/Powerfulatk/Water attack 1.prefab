@@ -4912,6 +4912,7 @@ GameObject:
   - component: {fileID: 8731895834949461062}
   - component: {fileID: 7883343783916587056}
   - component: {fileID: -322621227179677176}
+  - component: {fileID: -2925348000236388130}
   m_Layer: 0
   m_Name: Water attack 1
   m_TagString: Untagged
@@ -9810,6 +9811,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9651dbdceb2c57c469ed04bbe0275009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-2925348000236388130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799142062113034878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3568719413983044589
 GameObject:
   m_ObjectHideFlags: 0

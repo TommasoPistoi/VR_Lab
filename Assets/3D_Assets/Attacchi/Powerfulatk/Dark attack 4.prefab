@@ -4845,6 +4845,7 @@ GameObject:
   - component: {fileID: 8731895834949461062}
   - component: {fileID: 7883343783916587056}
   - component: {fileID: -6688575633133603058}
+  - component: {fileID: 6204089512018231393}
   m_Layer: 0
   m_Name: Dark attack 4
   m_TagString: Untagged
@@ -9741,6 +9742,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dac6f507c8399ff4890e0513ac5c388c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &6204089512018231393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799142062113034878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2543677087138741647
 GameObject:
   m_ObjectHideFlags: 0
