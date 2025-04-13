@@ -24,7 +24,7 @@ public class White : MonoBehaviour
     void Update()
     {
         
-        if (Inputtesting.Test_Spell)
+        if (Inputtesting.Indice_Left_bool)
         {
             Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
 
