@@ -9,7 +9,9 @@ public class Water : MonoBehaviour
     public GameObject EffectWeak;
     public GameObject EffectStrong;
     public GameObject SpawnPosition;
+    public float Rotation;
     private inputtesting Inputtesting;
+   
     public bool Stop;
 
 private void Start()
@@ -21,13 +23,14 @@ private void Start()
 void Update()
 {
 
-    if (Inputtesting.Trigger_Left_bool)
+    if (Inputtesting.Pollice_Right_bool)
     {
         if (Stop == true)
-        {
+            {
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
 
-            Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
-            Stop = false;
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
+                Stop = false;
         }
 
 

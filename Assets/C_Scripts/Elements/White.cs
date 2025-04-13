@@ -6,6 +6,7 @@ public class White : MonoBehaviour
     public GameObject Palla;
     public GameObject EffectWeak;
     public GameObject EffectStrong;
+    public float Rotation;
     public GameObject SpawnPosition;
     private inputtesting Inputtesting;
     public bool Stop;
@@ -19,12 +20,14 @@ public class White : MonoBehaviour
     void Update()
     {
 
-        if (Inputtesting.Trigger_Left_bool)
+        if (Inputtesting.Indice_Left_bool)
         {
             if (Stop == true)
             {
 
-                Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
                 Stop = false;
             }
 

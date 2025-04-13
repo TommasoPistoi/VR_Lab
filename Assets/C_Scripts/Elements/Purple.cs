@@ -9,6 +9,7 @@ public class Purple : MonoBehaviour
     public GameObject EffectStrong;
     public GameObject SpawnPosition;
     private inputtesting Inputtesting;
+    public float Rotation;
     public bool Stop;
 
     private void Start()
@@ -20,12 +21,14 @@ public class Purple : MonoBehaviour
     void Update()
     {
 
-        if (Inputtesting.Trigger_Left_bool)
+        if (Inputtesting.Pollice_Left_bool)
         {
             if (Stop == true)
             {
 
-                Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
                 Stop = false;
             }
 

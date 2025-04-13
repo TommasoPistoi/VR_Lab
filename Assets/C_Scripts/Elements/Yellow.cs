@@ -5,6 +5,7 @@ using UnityEngine;
 public class Yellow : MonoBehaviour
 {
     public GameObject Palla;
+    public float Rotation;
     public GameObject EffectWeak;
     public GameObject EffectStrong;
     public GameObject SpawnPosition;
@@ -20,12 +21,14 @@ public class Yellow : MonoBehaviour
     void Update()
     {
 
-        if (Inputtesting.Trigger_Left_bool)
+        if (Inputtesting.Trigger_Right_bool)
         {
             if (Stop == true)
             {
 
-                Instantiate(EffectWeak, SpawnPosition.transform.position, Quaternion.identity);
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
                 Stop = false;
             }
 
