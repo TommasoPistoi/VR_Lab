@@ -2,18 +2,18 @@ using System.Threading;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class DestroyGreen : MonoBehaviour
+public class WaitWhite : MonoBehaviour
 {
-    private Yellow Yellow;
+    private White White;
 
     private void Start()
 
     {
-        Yellow = FindAnyObjectByType<Yellow>();
+        White = FindAnyObjectByType<White>();
     }
     private void OnDestroy()
     {
-        Yellow.Stop = false;
+        White.Stop = true;
     }
 
 

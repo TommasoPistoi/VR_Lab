@@ -11,6 +11,9 @@ public class Purple : MonoBehaviour
     private inputtesting Inputtesting;
     public float Rotation;
     public bool Stop;
+    public GameObject SpawnWaiting;
+    public GameObject EffectWaiting;
+    public bool CastingSpell;
 
     private void Start()
     {
@@ -23,16 +26,16 @@ public class Purple : MonoBehaviour
 
         if (Inputtesting.Pollice_Left_bool)
         {
-            if (Stop == true)
-            {
+            Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
+        }
 
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+        if (Stop == true)
+        {
 
-                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
-                Stop = false;
-            }
+            Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
 
-
+            Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
+            Stop = false;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Threading;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class DestroyGreen : MonoBehaviour
+public class WaitGreen : MonoBehaviour
 {
     private Yellow Yellow;
 
@@ -13,7 +13,7 @@ public class DestroyGreen : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Yellow.Stop = false;
+        Yellow.Stop = true;
     }
 
 

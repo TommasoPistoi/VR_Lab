@@ -13,7 +13,7 @@ public class DestroyFire : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Fire.Stop = true;
+        Fire.Stop = false;
     }
         
     

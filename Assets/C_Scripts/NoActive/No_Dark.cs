@@ -13,7 +13,7 @@ public class DestroyPurple : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Purple.Stop = true;
+        Purple.Stop = false;
     }
 
 

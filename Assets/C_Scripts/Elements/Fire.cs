@@ -11,6 +11,9 @@ public class Example : MonoBehaviour
     public float Rotation;
     private inputtesting Inputtesting;
     public bool Stop;
+    public GameObject SpawnWaiting;
+    public GameObject EffectWaiting;
+    public bool CastingSpell;
 
     private void Start()
     {
@@ -23,15 +26,16 @@ public class Example : MonoBehaviour
 
         if (Inputtesting.Trigger_Left_bool)
         {
-            if (Stop == true)
-            {
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f); 
-             
-                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
-                Stop = false;
-            }
 
+            Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
 
+        }
+        if (Stop == true)
+        {
+            Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+
+            Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
+            Stop = false;
         }
     }
 }

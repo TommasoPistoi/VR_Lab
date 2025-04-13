@@ -13,7 +13,7 @@ public class DestroyWhite : MonoBehaviour
     }
     private void OnDestroy()
     {
-        White.Stop = true;
+        White.Stop = false;
     }
 
 

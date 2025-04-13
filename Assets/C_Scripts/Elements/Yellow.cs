@@ -11,11 +11,15 @@ public class Yellow : MonoBehaviour
     public GameObject SpawnPosition;
     private inputtesting Inputtesting;
     public bool Stop;
+    public GameObject SpawnWaiting;
+    public GameObject EffectWaiting;
+    public bool CastingSpell;
 
     private void Start()
     {
         Inputtesting = FindAnyObjectByType<inputtesting>();
-        Stop = true;
+        Stop = false;
+        CastingSpell = false;
     }
 
     void Update()
@@ -23,18 +27,21 @@ public class Yellow : MonoBehaviour
 
         if (Inputtesting.Trigger_Right_bool)
         {
-            if (Stop == true)
-            {
 
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
-
-                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
-                Stop = false;
-            }
-
+            Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
 
         }
+
+        if (Stop == true)
+        {
+
+            Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+
+            Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
+            Stop = false;
+        }
     }
+
 }
 
 

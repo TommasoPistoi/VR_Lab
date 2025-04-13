@@ -3,7 +3,7 @@ using UnityEngine;
 public class SfereRotation : MonoBehaviour
 {
     public GameObject[] objectsToRotate; // Array di oggetti da ruotare
-    public float rotationAngle = 45f; // Angolo di rotazione
+    public float rotationAngle = 40f; // Angolo di rotazione
     private inputtesting inputtesting;
     public GameObject LeftButton;
     public GameObject RightButton;

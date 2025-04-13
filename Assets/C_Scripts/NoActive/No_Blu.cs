@@ -13,7 +13,7 @@ public class DestroyWater : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Water.Stop = true;
+        Water.Stop = false;
     }
 
 
