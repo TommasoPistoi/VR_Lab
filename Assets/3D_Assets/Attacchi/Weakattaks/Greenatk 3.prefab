@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4242651463522536677}
   - component: {fileID: 4055398302561038447}
   - component: {fileID: 3740851260654826650}
-  - component: {fileID: -72158835085991069}
+  - component: {fileID: -1509823326869145692}
   m_Layer: 0
   m_Name: Greenatk 3
   m_TagString: Untagged
@@ -4897,7 +4897,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &-72158835085991069
+--- !u!114 &-1509823326869145692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4906,7 +4906,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3437189453494153808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f5ce5565772f341b62e3162a1df8a2, type: 3}
+  m_Script: {fileID: 11500000, guid: fd73381b147d3e240ad0dfc0bc39747b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4263506136905291838

@@ -14711,7 +14711,7 @@ GameObject:
   - component: {fileID: 2363147439433389964}
   - component: {fileID: 8731895834949461062}
   - component: {fileID: 7883343783916587056}
-  - component: {fileID: -8582355794035099066}
+  - component: {fileID: 1714801562922726843}
   m_Layer: 0
   m_Name: Fire attack 1
   m_TagString: Untagged
@@ -19601,7 +19601,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &-8582355794035099066
+--- !u!114 &1714801562922726843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

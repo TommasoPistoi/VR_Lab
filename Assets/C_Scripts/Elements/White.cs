@@ -20,7 +20,7 @@ public class White : MonoBehaviour
     void Update()
     {
 
-        if (Inputtesting.Indice_Left_bool)
+        if (Inputtesting.Test_Spell)
         {
             if (Stop == true)
             {

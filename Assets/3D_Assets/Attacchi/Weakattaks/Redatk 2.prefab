@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4242651463522536677}
   - component: {fileID: 4055398302561038447}
   - component: {fileID: 3740851260654826650}
-  - component: {fileID: 1031151789355443526}
+  - component: {fileID: 437372586814869572}
   m_Layer: 0
   m_Name: Redatk 2
   m_TagString: Untagged
@@ -4897,7 +4897,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &1031151789355443526
+--- !u!114 &437372586814869572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

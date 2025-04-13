@@ -2,7 +2,7 @@ using System.Threading;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class DestroyFire : MonoBehaviour
 {
     private Example Fire;
 
