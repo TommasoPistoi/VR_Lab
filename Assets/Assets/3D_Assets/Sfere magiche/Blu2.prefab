@@ -207,6 +207,8 @@ MonoBehaviour:
   EffectWaiting: {fileID: 952961124639765284, guid: 1095a5c9f65bfbe4383f63d5d1886c65, type: 3}
   CastingSpell: 0
   Stop: 0
+  Cast_Strong_Spell: 0
+  StrongSpell: {fileID: 1799142062113034878, guid: a7f86c3e368b7cc4d9576219590a2e6b, type: 3}
 --- !u!1001 &27674368811044072
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -176,6 +176,8 @@ MonoBehaviour:
   SpawnWaiting: {fileID: 1532904639891482555}
   EffectWaiting: {fileID: 4386588507499592971, guid: 48e196c36363e814bad43a44c92dc11b, type: 3}
   CastingSpell: 0
+  Cast_Strong_Spell: 0
+  StrongSpell: {fileID: 1799142062113034878, guid: 1aba69da02123aa42a1b95fdbf5d0501, type: 3}
 --- !u!1 &8399490979885429628
 GameObject:
   m_ObjectHideFlags: 0
