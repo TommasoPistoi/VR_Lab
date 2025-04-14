@@ -10,6 +10,7 @@ public class EnemieSpawner : MonoBehaviour
     public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
 
     private int currentEnemies = 0;
+    public GameObject target; 
 
     void Start()
     {
@@ -22,9 +23,9 @@ public class EnemieSpawner : MonoBehaviour
         {
             if (currentEnemies < maxEnemies)
             {
-                Vector3 spawnPosition = transform.position;
+                Vector3 SpawnEnemies = transform.position;
                 Quaternion spawnRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
-                Instantiate(Enemies[Random.Range(0, Enemies.Count - 1)], spawnPosition, spawnRotation);
+                Instantiate(Enemies[Random.Range(0, Enemies.Count - 1)], SpawnEnemies, spawnRotation);
                 currentEnemies++;
             }
             yield return new WaitForSeconds(spawnInterval);
