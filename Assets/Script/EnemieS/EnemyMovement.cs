@@ -3,14 +3,14 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public float speed = 3f; // Velocità di movimento del nemico
-    public GameObject target; // Il target verso cui muoversi
+    public GameObject Target; // Il target verso cui muoversi
 
     void Update()
     {
-        if (target != null)
+        if (Target != null)
         {
             // Calcola la direzione verso il target
-            Vector3 direction = - target.transform.position;
+            Vector3 direction = Target.transform.position - transform.position;
 
             // Muove il nemico verso il target
             transform.Translate(direction.normalized * speed * Time.deltaTime);
@@ -35,11 +35,10 @@ public class EnemyMovement : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         // Esempio: distrugge il nemico se colpisce qualcosa con il tag "Obstacle"
-        if (collision.gameObject.CompareTag("Obstacle"))
+        if (collision.gameObject.CompareTag("Target"))
         {
             DestroyEnemy();
         }
     }
 }
-
 
