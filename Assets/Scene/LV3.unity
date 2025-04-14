@@ -4799,7 +4799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToRotate:
   - {fileID: 211495712}
-  rotationAngle: 45
+  rotationAngle: 72
   LeftButton: {fileID: 1765622961}
   RightButton: {fileID: 1586609520}
 --- !u!4 &211495714
