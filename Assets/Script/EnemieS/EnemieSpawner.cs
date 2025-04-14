@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class EnemieSpawner : MonoBehaviour
 {
     [SerializeField] public List<GameObject> Enemies = new List<GameObject>(); // Lista dei prefab dei nemici
-    public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
+    public int spawnInterval; // Intervallo di tempo tra una spawn e l'altra (in secondi)
     public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
     public GameObject Target; // Il target verso cui i nemici si muoveranno
 
