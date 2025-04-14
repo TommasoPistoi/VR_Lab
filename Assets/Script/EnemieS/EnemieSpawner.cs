@@ -3,6 +3,8 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Numerics;
 using Vector3 = UnityEngine.Vector3;
+using Unity.Mathematics;
+using Random = UnityEngine.Random;
 
 public class EnemieSpawner : MonoBehaviour
 {
@@ -25,7 +27,7 @@ public class EnemieSpawner : MonoBehaviour
             if (currentEnemies < maxEnemies && Enemies.Count > 0 && Target != null) // Controlla se si può spawnare
 {
                 Vector3 spawnPosition = transform.position; // Posizione di spawn (usa la posizione dello spawner)
-                GameObject newEnemy = Instantiate(Enemies[Random.Range(0, Enemies.Count)]); // Istanzia un nemico casuale
+                GameObject newEnemy = Instantiate(Enemies[Random.Range(0, Enemies.Count)], transform.position, quaternion.identity); // Istanzia un nemico casuale
                 if (newEnemy != null)
                 {
                     // Assicura che il nemico abbia lo script di movimento

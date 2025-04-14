@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
         if (Target != null)
         {
             // Calcola la direzione verso il target
-            Vector3 direction = - Target.transform.position;
+            Vector3 direction = Target.transform.position - transform.position;
 
             // Muove il nemico verso il target
             transform.Translate(direction.normalized * speed * Time.deltaTime);
