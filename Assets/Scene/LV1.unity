@@ -21438,10 +21438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemies:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
-  - {fileID: 1678062181921508955, guid: 60b400447676cf442939e41994eb8c3f, type: 3}
-  - {fileID: 5629553862372424409, guid: 212aa0a179f36614e93480fc362e0f2a, type: 3}
-  - {fileID: 3940163152852975530, guid: 3c796a14c1b53a948bb49ef664232d25, type: 3}
-  - {fileID: 6583056322674757183, guid: 3b3986c5a6cb8f446a9642958358acbc, type: 3}
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 1229943768}
