@@ -14,28 +14,55 @@ public class Purple : MonoBehaviour
     public GameObject SpawnWaiting;
     public GameObject EffectWaiting;
     public bool CastingSpell;
+    public bool Cast_Strong_Spell;
+    public GameObject StrongSpell;
 
     private void Start()
     {
         Inputtesting = FindAnyObjectByType<inputtesting>();
         Stop = true;
+        CastingSpell = false;
     }
 
     void Update()
     {
-
-        if (Inputtesting.Pollice_Left_bool)
+        if ((Input.GetKeyDown(KeyCode.D)))
         {
-            Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
-        }
+            if (CastingSpell == true)
+            {
+                Cast_Strong_Spell = true;
+                CastingSpell = false;
+            }
 
+        }
+        if (Inputtesting.Trigger_Right_bool)
+        {
+            if (CastingSpell == false)
+            {
+                Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
+                CastingSpell = true;
+            }
+
+        }
         if (Stop == true)
         {
+            if (CastingSpell == true)
+            {
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+                Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
+                Stop = false;
+                CastingSpell = false;
 
-            Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+            }
+            if (Cast_Strong_Spell == true)
+            {
+                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+                Instantiate(StrongSpell, SpawnPosition.transform.position, customRotation);
+                Cast_Strong_Spell = false;
+                CastingSpell = false;
+                Stop = false;
 
-            Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
-            Stop = false;
+            }
         }
     }
 }

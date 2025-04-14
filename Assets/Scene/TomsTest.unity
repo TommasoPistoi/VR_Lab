@@ -11947,6 +11947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Viola2
       objectReference: {fileID: 0}
+    - target: {fileID: 9053097329804221680, guid: 450fc9f672a1c4e41845bbd593798796, type: 3}
+      propertyPath: StrongSpell
+      value: 
+      objectReference: {fileID: 1799142062113034878, guid: 1aba69da02123aa42a1b95fdbf5d0501, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14478,6 +14482,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5660537443275434421, guid: fc61c6808ad9f1d4f9213d782778450a, type: 3}
+      propertyPath: StrongSpell
+      value: 
+      objectReference: {fileID: 1799142062113034878, guid: dfc503750ad53154b860e2069b5d72ba, type: 3}
     - target: {fileID: 5679225103647919299, guid: fc61c6808ad9f1d4f9213d782778450a, type: 3}
       propertyPath: m_Name
       value: Bianco2
@@ -18594,6 +18602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rosso2
       objectReference: {fileID: 0}
+    - target: {fileID: 8055355859532797084, guid: 4c64724783eb938428106556fb732ab4, type: 3}
+      propertyPath: StrongSpell
+      value: 
+      objectReference: {fileID: 1799142062113034878, guid: c9d5fb74084d3c846a4fe94d6cc05302, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28294,6 +28306,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5270521310416874865, guid: 2a7d31870fd41164083e7ef20fd0e34d, type: 3}
+      propertyPath: StrongSpell
+      value: 
+      objectReference: {fileID: 1799142062113034878, guid: 5b20ec81d0ae5d049b27f1da87318cfd, type: 3}
     - target: {fileID: 5679225103647919299, guid: 2a7d31870fd41164083e7ef20fd0e34d, type: 3}
       propertyPath: m_Name
       value: Verde
@@ -41311,6 +41327,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 211495714}
     m_Modifications:
+    - target: {fileID: 3154087955363624261, guid: d39d64a8840f85746bd061e5b9abeed0, type: 3}
+      propertyPath: StrongSpell
+      value: 
+      objectReference: {fileID: 1799142062113034878, guid: a7f86c3e368b7cc4d9576219590a2e6b, type: 3}
     - target: {fileID: 3198452979513807020, guid: d39d64a8840f85746bd061e5b9abeed0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.47
