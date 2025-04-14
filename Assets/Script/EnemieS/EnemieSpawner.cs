@@ -1,9 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class EnemieSpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab; // Il prefab del nemico da istanziare
+    [SerializeField] public List<GameObject> Enemies = new List<GameObject>();
     public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
     
     public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
@@ -23,7 +24,7 @@ public class EnemieSpawner : MonoBehaviour
             {
                 Vector3 spawnPosition = transform.position;
                 Quaternion spawnRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
-                Instantiate(enemyPrefab, spawnPosition, spawnRotation);
+                Instantiate(Enemies[Random.Range(0, Enemies.Count - 1)], spawnPosition, spawnRotation);
                 currentEnemies++;
             }
             yield return new WaitForSeconds(spawnInterval);
