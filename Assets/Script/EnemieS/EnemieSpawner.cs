@@ -1,41 +1,52 @@
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Numerics;
 
 public class EnemieSpawner : MonoBehaviour
 {
-    [SerializeField] public List<GameObject> Enemies = new List<GameObject>();
+    [SerializeField] public List<GameObject> Enemies = new List<GameObject>(); // Lista dei prefab dei nemici
     public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
-    
     public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
+    public GameObject target; // Il target verso cui i nemici si muoveranno
 
-    private int currentEnemies = 0;
-    public GameObject target; 
+    private int currentEnemies = 0; // Numero corrente di nemici attivi
 
     void Start()
     {
-        StartCoroutine(SpawnEnemies());
+        StartCoroutine(SpawnEnemies()); // Inizia la coroutine di spawn
     }
 
     IEnumerator SpawnEnemies()
     {
-        while (true)
+        while (true) // Loop infinito per la spawn
         {
-            if (currentEnemies < maxEnemies)
+            if (currentEnemies < maxEnemies && Enemies.Count > 0 && target != null) // Controlla se si può spawnare
             {
-                Vector3 SpawnEnemies = transform.position;
-                Quaternion spawnRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
-                Instantiate(Enemies[Random.Range(0, Enemies.Count - 1)], SpawnEnemies, spawnRotation);
-                currentEnemies++;
+                Vector3 spawnPosition = transform.position; // Posizione di spawn (usa la posizione dello spawner)
+                Quaternion spawnRotation = Quaternion.identity; // Rotazione di spawn (nessuna rotazione)
+                GameObject newEnemy = Instantiate(Enemies[Random.Range(0, Enemies.Count)], spawnPosition, spawnRotation); // Istanzia un nemico casuale
+                if (newEnemy != null)
+                {
+                    // Assicura che il nemico abbia lo script di movimento
+                    EnemyMovement enemyMovement = newEnemy.GetComponent<EnemyMovement>();
+                    if (enemyMovement == null)
+                    {
+                        enemyMovement = newEnemy.AddComponent<EnemyMovement>(); // Aggiunge lo script se non esiste
+                    }
+                    enemyMovement.target = target; // Imposta il target nello script di movimento
+                    currentEnemies++; // Incrementa il contatore dei nemici
+                }
             }
-            yield return new WaitForSeconds(spawnInterval);
+            yield return new WaitForSeconds(spawnInterval); // Attende prima di spawnare di nuovo
         }
     }
 
     // Metodo per gestire la distruzione di un nemico
     public void EnemyDestroyed()
     {
-        currentEnemies--;
+        currentEnemies--; // Decrementa il contatore dei nemici
     }
 }
+
 
