@@ -17,6 +17,8 @@ public class Water : MonoBehaviour
     public bool Stop;
     public bool Cast_Strong_Spell;
     public GameObject StrongSpell;
+    public float RotationStrong;
+    public GameObject SpawnStrong;
 
     private void Start()
     {
@@ -28,8 +30,7 @@ public class Water : MonoBehaviour
     void Update()
     {
 
-        if (Inputtesting.Pollice_Right_bool)
-        {
+        
 
             if ((Input.GetKeyDown(KeyCode.S)))
             {
@@ -40,7 +41,7 @@ public class Water : MonoBehaviour
                 }
 
             }
-            if (Inputtesting.Trigger_Right_bool)
+            if (Inputtesting.Pollice_Right_bool)
             {
                 if (CastingSpell == false)
                 {
@@ -61,8 +62,8 @@ public class Water : MonoBehaviour
                 }
                 if (Cast_Strong_Spell == true)
                 {
-                    Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
-                    Instantiate(StrongSpell, SpawnPosition.transform.position, customRotation);
+                    Quaternion customRotation = Quaternion.Euler(0f, RotationStrong, 0f);
+                    Instantiate(StrongSpell, SpawnStrong.transform.position, customRotation);
                     Cast_Strong_Spell = false;
                     CastingSpell = false;
                     Stop = false;
@@ -71,5 +72,5 @@ public class Water : MonoBehaviour
             }
         }
     }
-}
+
 

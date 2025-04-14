@@ -8,7 +8,7 @@ public class Example : MonoBehaviour
     public GameObject EffectWeak;
     public GameObject EffectStrong;
     public GameObject SpawnPosition;
-    public float Rotation;
+    public float RotationWeak;
     private inputtesting Inputtesting;
     public bool Stop;
     public GameObject SpawnWaiting;
@@ -16,6 +16,8 @@ public class Example : MonoBehaviour
     public bool CastingSpell;
     public bool Cast_Strong_Spell;
     public GameObject StrongSpell;
+    public float RotationStrong;
+    public GameObject SpawnStrong;
 
     private void Start()
     {
@@ -49,7 +51,7 @@ public class Example : MonoBehaviour
         {
             if (CastingSpell == true)
             {
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
+                Quaternion customRotation = Quaternion.Euler(0f, RotationWeak, 0f);
                 Instantiate(EffectWeak, SpawnPosition.transform.position, customRotation);
                 Stop = false;
                 CastingSpell = false;
@@ -57,8 +59,8 @@ public class Example : MonoBehaviour
             }
             if (Cast_Strong_Spell == true)
             {
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
-                Instantiate(StrongSpell, SpawnPosition.transform.position, customRotation);
+                Quaternion customRotation = Quaternion.Euler(0f, RotationStrong, 0f);
+                Instantiate(StrongSpell, SpawnStrong.transform.position, customRotation);
                 Cast_Strong_Spell = false;
                 CastingSpell = false;
                 Stop = false;

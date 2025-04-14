@@ -15,6 +15,8 @@ public class White : MonoBehaviour
     public bool CastingSpell;
     public bool Cast_Strong_Spell;
     public GameObject StrongSpell;
+    public float RotationStrong;
+    public GameObject SpawnStrong;
 
     private void Start()
     {
@@ -35,7 +37,7 @@ public class White : MonoBehaviour
             }
 
         }
-        if (Inputtesting.Trigger_Right_bool)
+        if (Inputtesting.Test_Spell)
         {
             if (CastingSpell == false)
             {
@@ -56,8 +58,8 @@ public class White : MonoBehaviour
             }
             if (Cast_Strong_Spell == true)
             {
-                Quaternion customRotation = Quaternion.Euler(0f, Rotation, 0f);
-                Instantiate(StrongSpell, SpawnPosition.transform.position, customRotation);
+                Quaternion customRotation = Quaternion.Euler(0f, RotationStrong, 0f);
+                Instantiate(StrongSpell, SpawnStrong.transform.position, customRotation);
                 Cast_Strong_Spell = false;
                 CastingSpell = false;
                 Stop = false;
