@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
         for (int i = 0; i<EnemyTags.Count; i++)
         {
             Debug.Log("I got you");
-            if (target.gameObject.tag == EnemyTags[i]) 
+            if (target.gameObject.CompareTag(EnemyTags[i])) 
             { 
                  if (gameOverUI != null)
                 {

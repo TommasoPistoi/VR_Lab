@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  target: {fileID: 7128430478891892001, guid: 6a3a02ac5f32ba7488de84ef6afd8444, type: 3}
+  Target: {fileID: 0}
 --- !u!54 &-680643741274298759
 Rigidbody:
   m_ObjectHideFlags: 0
