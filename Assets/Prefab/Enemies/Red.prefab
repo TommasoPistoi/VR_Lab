@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2645167177184917420}
   - component: {fileID: 9096144494715643089}
   - component: {fileID: 7281245851471937453}
+  - component: {fileID: 183915758298055693}
   m_Layer: 0
   m_Name: Red
   m_TagString: Red
@@ -121,5 +122,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f59930bd484ca40bafd833035daa1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 7128430478891892001, guid: 6a3a02ac5f32ba7488de84ef6afd8444, type: 3}
   speed: 5
+  target: {fileID: 7128430478891892001, guid: 6a3a02ac5f32ba7488de84ef6afd8444, type: 3}
+--- !u!54 &183915758298055693
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583056322674757183}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -2,13 +2,15 @@ using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Numerics;
+using Vector3 = UnityEngine.Vector3;
+using Quaternion = UnityEngine.Quaternion;
 
 public class EnemieSpawner : MonoBehaviour
 {
     [SerializeField] public List<GameObject> Enemies = new List<GameObject>(); // Lista dei prefab dei nemici
     public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
     public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
-    public GameObject target; // Il target verso cui i nemici si muoveranno
+    public GameObject Target; // Il target verso cui i nemici si muoveranno
 
     private int currentEnemies = 0; // Numero corrente di nemici attivi
 
@@ -21,7 +23,7 @@ public class EnemieSpawner : MonoBehaviour
     {
         while (true) // Loop infinito per la spawn
         {
-            if (currentEnemies < maxEnemies && Enemies.Count > 0 && target != null) // Controlla se si può spawnare
+            if (currentEnemies < maxEnemies && Enemies.Count > 0 && Target != null) // Controlla se si può spawnare
             {
                 Vector3 spawnPosition = transform.position; // Posizione di spawn (usa la posizione dello spawner)
                 Quaternion spawnRotation = Quaternion.identity; // Rotazione di spawn (nessuna rotazione)
@@ -34,7 +36,7 @@ public class EnemieSpawner : MonoBehaviour
                     {
                         enemyMovement = newEnemy.AddComponent<EnemyMovement>(); // Aggiunge lo script se non esiste
                     }
-                    enemyMovement.target = target; // Imposta il target nello script di movimento
+                    enemyMovement.target = Target; // Imposta il target nello script di movimento
                     currentEnemies++; // Incrementa il contatore dei nemici
                 }
             }
