@@ -3,7 +3,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Numerics;
 using Vector3 = UnityEngine.Vector3;
-using Quaternion = UnityEngine.Quaternion;
 
 public class EnemieSpawner : MonoBehaviour
 {
@@ -24,10 +23,9 @@ public class EnemieSpawner : MonoBehaviour
         while (true) // Loop infinito per la spawn
         {
             if (currentEnemies < maxEnemies && Enemies.Count > 0 && Target != null) // Controlla se si può spawnare
-            {
+{
                 Vector3 spawnPosition = transform.position; // Posizione di spawn (usa la posizione dello spawner)
-                Quaternion spawnRotation = Quaternion.identity; // Rotazione di spawn (nessuna rotazione)
-                GameObject newEnemy = Instantiate(Enemies[Random.Range(0, Enemies.Count)], spawnPosition, spawnRotation); // Istanzia un nemico casuale
+                GameObject newEnemy = Instantiate(Enemies[Random.Range(0, Enemies.Count)]); // Istanzia un nemico casuale
                 if (newEnemy != null)
                 {
                     // Assicura che il nemico abbia lo script di movimento
@@ -36,7 +34,7 @@ public class EnemieSpawner : MonoBehaviour
                     {
                         enemyMovement = newEnemy.AddComponent<EnemyMovement>(); // Aggiunge lo script se non esiste
                     }
-                    enemyMovement.target = Target; // Imposta il target nello script di movimento
+                    enemyMovement.Target = Target; // Imposta il target nello script di movimento
                     currentEnemies++; // Incrementa il contatore dei nemici
                 }
             }
@@ -50,5 +48,4 @@ public class EnemieSpawner : MonoBehaviour
         currentEnemies--; // Decrementa il contatore dei nemici
     }
 }
-
 
