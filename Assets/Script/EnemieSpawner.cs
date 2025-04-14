@@ -1,16 +1,39 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemieSpawner : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject enemyPrefab; // Il prefab del nemico da istanziare
+    public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
+    
+    public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
+
+    private int currentEnemies = 0;
+
     void Start()
     {
-        
+        StartCoroutine(SpawnEnemies());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator SpawnEnemies()
     {
-        
+        while (true)
+        {
+            if (currentEnemies < maxEnemies)
+            {
+                Vector3 spawnPosition = transform.position;
+                Quaternion spawnRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
+                Instantiate(enemyPrefab, spawnPosition, spawnRotation);
+                currentEnemies++;
+            }
+            yield return new WaitForSeconds(spawnInterval);
+        }
+    }
+
+    // Metodo per gestire la distruzione di un nemico
+    public void EnemyDestroyed()
+    {
+        currentEnemies--;
     }
 }
+

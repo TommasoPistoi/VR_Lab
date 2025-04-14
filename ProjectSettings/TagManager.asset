@@ -9,6 +9,7 @@ TagManager:
   - Blu
   - Dark
   - Light
+  - Target
   layers:
   - Default
   - TransparentFX
