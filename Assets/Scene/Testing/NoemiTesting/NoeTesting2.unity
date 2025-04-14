@@ -40985,7 +40985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 5626730597400076271, guid: ee0aea0e0ccae814081cc8615866b080, type: 3}
   spawnInterval: 2
-  maxEnemies: 10
+  maxEnemies: 15
 --- !u!4 &2053555670
 Transform:
   m_ObjectHideFlags: 0
@@ -42719,7 +42719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8903721863349112247, guid: 6a3a02ac5f32ba7488de84ef6afd8444, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 8903721863349112247, guid: 6a3a02ac5f32ba7488de84ef6afd8444, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42836,7 +42836,7 @@ SceneRoots:
   - {fileID: 8104009442756672281}
   - {fileID: 1860984431}
   - {fileID: 2053555670}
+  - {fileID: 5886700190118475817}
   - {fileID: 866549445}
   - {fileID: 1884071372}
   - {fileID: 2082279029}
-  - {fileID: 5886700190118475817}

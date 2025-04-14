@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8903721863349112247}
   - component: {fileID: -4430677518396409897}
-  - component: {fileID: 5697810678043813316}
+  - component: {fileID: 9134315385183190098}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -43,18 +43,18 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5697810678043813316
+  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+--- !u!114 &9134315385183190098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,6 +63,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7128430478891892001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5638625a4d0fbbe469a2267c32ce24fe, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: -4430677518396409897}
+  gameOverUI: {fileID: 0}
+  EnemyTags:
+  - Green
+  - Dark
+  - Light
+  - Blu
+  - Red

@@ -6,7 +6,7 @@ public class EnemieSpawner : MonoBehaviour
     public GameObject enemyPrefab; // Il prefab del nemico da istanziare
     public float spawnInterval = 2f; // Intervallo di tempo tra una spawn e l'altra (in secondi)
     
-    public int maxEnemies = 10; // Numero massimo di nemici attivi contemporaneamente
+    public int maxEnemies = 15; // Numero massimo di nemici attivi contemporaneamente
 
     private int currentEnemies = 0;
 
