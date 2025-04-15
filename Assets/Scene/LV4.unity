@@ -13977,6 +13977,7 @@ MonoBehaviour:
   spawnInterval: 15
   maxEnemies: 15
   Target: {fileID: 1699183281}
+  startSpawnDelay: 20
 --- !u!4 &653324424
 Transform:
   m_ObjectHideFlags: 0
@@ -18869,7 +18870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 908028657}
+  player: {fileID: 0}
   gameOverUI: {fileID: 0}
   EnemyTags:
   - Green
@@ -18896,8 +18897,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.6293955, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.7412347, y: 0.47475398, z: 0.56294286}
 --- !u!4 &908028658
 Transform:
   m_ObjectHideFlags: 0
@@ -21869,7 +21870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1029428306}
+  player: {fileID: 0}
   gameOverUI: {fileID: 0}
   EnemyTags:
   - Green
@@ -21896,8 +21897,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.3880134, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.2223556, y: 0.47475398, z: 0.562943}
 --- !u!4 &1029428307
 Transform:
   m_ObjectHideFlags: 0
@@ -36232,8 +36233,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5457091, y: 1.6024637, z: 4.0746303}
-  m_Center: {x: 0.27284145, y: 0.30123186, z: -0.16120958}
+  m_Size: {x: 1.5457091, y: 1.6024637, z: 5.2651253}
+  m_Center: {x: 0.27284145, y: 0.30123186, z: -0.11065686}
 --- !u!4 &1699183283
 Transform:
   m_ObjectHideFlags: 0
@@ -36261,7 +36262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1699183282}
+  player: {fileID: 0}
   gameOverUI: {fileID: 542347015}
   EnemyTags:
   - Green
@@ -37420,6 +37421,7 @@ MonoBehaviour:
   spawnInterval: 10
   maxEnemies: 15
   Target: {fileID: 908028655}
+  startSpawnDelay: 15
 --- !u!4 &1750273137
 Transform:
   m_ObjectHideFlags: 0
@@ -40806,6 +40808,7 @@ MonoBehaviour:
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 1029428304}
+  startSpawnDelay: 0
 --- !u!4 &1893632264
 Transform:
   m_ObjectHideFlags: 0
