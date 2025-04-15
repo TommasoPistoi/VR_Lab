@@ -2434,6 +2434,7 @@ MonoBehaviour:
   spawnInterval: 15
   maxEnemies: 15
   Target: {fileID: 243073740}
+  startSpawnDelay: 20
 --- !u!4 &120590655
 Transform:
   m_ObjectHideFlags: 0
@@ -5648,8 +5649,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5457091, y: 1.6024637, z: 4.0746303}
-  m_Center: {x: 0.27284145, y: 0.30123186, z: -0.16120958}
+  m_Size: {x: 1.5457091, y: 1.6024637, z: 5.4847956}
+  m_Center: {x: 0.27284145, y: 0.30123186, z: -0.1126088}
 --- !u!4 &243073742
 Transform:
   m_ObjectHideFlags: 0
@@ -5677,7 +5678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 243073741}
+  player: {fileID: 243073740}
   gameOverUI: {fileID: 947574002}
   EnemyTags:
   - Green
@@ -11265,6 +11266,7 @@ MonoBehaviour:
   spawnInterval: 10
   maxEnemies: 15
   Target: {fileID: 2037190333}
+  startSpawnDelay: 15
 --- !u!4 &526387264
 Transform:
   m_ObjectHideFlags: 0
@@ -12847,8 +12849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 603806782}
-  gameOverUI: {fileID: 0}
+  player: {fileID: 854898200}
+  gameOverUI: {fileID: 603806780}
   EnemyTags:
   - Green
   - Dark
@@ -12874,8 +12876,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.6305656, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.1376394, y: 0.47475398, z: 0.562943}
 --- !u!4 &603806783
 Transform:
   m_ObjectHideFlags: 0
@@ -17926,6 +17928,7 @@ MonoBehaviour:
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 603806780}
+  startSpawnDelay: 0
 --- !u!4 &854898202
 Transform:
   m_ObjectHideFlags: 0
@@ -43417,8 +43420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2037190335}
-  gameOverUI: {fileID: 0}
+  player: {fileID: 2037190333}
+  gameOverUI: {fileID: 947574002}
   EnemyTags:
   - Green
   - Dark
@@ -43444,8 +43447,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.6658745, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.5455954, y: 0.47475398, z: 0.56294364}
 --- !u!4 &2037190336
 Transform:
   m_ObjectHideFlags: 0

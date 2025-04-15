@@ -2466,7 +2466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 113449237}
+  player: {fileID: 113449235}
   gameOverUI: {fileID: 66643180}
   EnemyTags:
   - Green
@@ -43648,6 +43648,7 @@ MonoBehaviour:
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 113449235}
+  startSpawnDelay: 0
 --- !u!4 &2080995448
 Transform:
   m_ObjectHideFlags: 0

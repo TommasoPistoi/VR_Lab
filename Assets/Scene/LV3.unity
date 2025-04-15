@@ -5162,7 +5162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 217503085}
+  player: {fileID: 0}
   gameOverUI: {fileID: 188787397}
   EnemyTags:
   - Green
@@ -22252,6 +22252,7 @@ MonoBehaviour:
   spawnInterval: 15
   maxEnemies: 15
   Target: {fileID: 217503084}
+  startSpawnDelay: 20
 --- !u!4 &1047672333
 Transform:
   m_ObjectHideFlags: 0
@@ -45261,8 +45262,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.3572006, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.31282163, y: 0.47475398, z: 0.56294405}
 --- !u!65 &4792694519850286658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45282,8 +45283,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 4.490885, y: 1.949508, z: 2.125886}
+  m_Center: {x: 0.014354706, y: 0.47475398, z: 0.562943}
 --- !u!114 &5022088938906983013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45303,6 +45304,7 @@ MonoBehaviour:
   spawnInterval: 10
   maxEnemies: 15
   Target: {fileID: 7128430479102721451}
+  startSpawnDelay: 15
 --- !u!114 &5022088939510342036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45322,6 +45324,7 @@ MonoBehaviour:
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 7128430479646405812}
+  startSpawnDelay: 0
 --- !u!1 &7128430479102721451
 GameObject:
   m_ObjectHideFlags: 0
@@ -45400,7 +45403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4792694519850286658}
+  player: {fileID: 0}
   gameOverUI: {fileID: 188787397}
   EnemyTags:
   - Green
@@ -45420,7 +45423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4792694518249633629}
+  player: {fileID: 0}
   gameOverUI: {fileID: 188787397}
   EnemyTags:
   - Green

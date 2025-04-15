@@ -21697,6 +21697,7 @@ MonoBehaviour:
   spawnInterval: 5
   maxEnemies: 15
   Target: {fileID: 1229943768}
+  startSpawnDelay: 0
 --- !u!4 &1044021065
 Transform:
   m_ObjectHideFlags: 0
@@ -25437,7 +25438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1229943770}
+  player: {fileID: 1229943768}
   gameOverUI: {fileID: 434152460}
   EnemyTags:
   - Green
@@ -25464,8 +25465,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9965906, y: 1.949508, z: 2.125886}
-  m_Center: {x: 0.47810292, y: 0.47475398, z: 0.562943}
+  m_Size: {x: 5.376695, y: 1.949508, z: 2.125886}
+  m_Center: {x: -0.06467271, y: 0.47475398, z: 0.562943}
 --- !u!4 &1229943771
 Transform:
   m_ObjectHideFlags: 0
