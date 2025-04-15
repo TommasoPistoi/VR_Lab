@@ -2,52 +2,48 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-using UnityEngine;
-using System.Collections.Generic;
-
 public class GameOver : MonoBehaviour
 {
-    public GameObject player; // Il GameObject del giocatore (assegnato dall'inspector)
-    public GameObject gameOverUI; // L'UI del game over (assegnato dall'inspector)
-    [SerializeField] public List<string> EnemyTags = new List<string>(); // Lista dei tag dei nemici
+    public int maxLives = 3; // Numero massimo di vite
+    private int currentLives; // Vite correnti
+    public GameObject gameOverScreen; // Riferimento al pannello di Game Over
 
-    private void Start()
+    void Start()
     {
-        // Assicurati che l'UI del game over sia disattivato all'inizio
-        if (gameOverUI != null)
+        currentLives = maxLives; // Inizializza le vite all'inizio
+        if (gameOverScreen != null)
         {
-            gameOverUI.SetActive(false);
+            gameOverScreen.SetActive(false); // Assicurati che il pannello di Game Over sia disattivato all'inizio
         }
     }
 
-    // Questo metodo viene chiamato quando un altro collider entra in contatto con il collider di questo GameObject
-    private void OnTriggerEnter(Collider other)
+    public void TakeDamage()
     {
-        Debug.Log("OnTriggerEnter called!"); // Verifica se il metodo viene chiamato
-        Debug.Log("Collider triggered: " + other.gameObject.name); // Per debugging: mostra il nome dell'oggetto che ha attivato il trigger
+        currentLives--; // Riduci le vite
 
-        for (int i = 0; i < EnemyTags.Count; i++)
+        Debug.Log("Vite rimanenti: " + currentLives); // Mostra le vite rimanenti in console
+
+        if (currentLives <= 0)
         {
-            Debug.Log("Checking tag: " + EnemyTags[i]); // Per debugging: mostra il tag che stiamo controllando
-            if (other.gameObject.CompareTag(EnemyTags[i])) // Controlla se l'oggetto ha uno dei tag dei nemici
-            {
-                Debug.Log("Game Over! Hit by: " + other.gameObject.name); // Messaggio di log per confermare il game over
-                if (gameOverUI != null)
-                {
-                    gameOverUI.SetActive(true); // Attiva l'UI del game over
-                }
-                // Puoi aggiungere qui altre azioni di game over, come fermare il tempo, ecc.
-                return; // Esci dalla funzione dopo aver attivato il game over
-            }
+            Lost(); // Chiama la funzione GameOver se le vite sono esaurite
         }
     }
 
-    // Metodo per gestire il game over (opzionale, ma utile)
-    public void RestartGame()
+    private void Lost()
     {
-        // Carica la scena corrente o una scena di game over
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
-        // oppure:  UnityEngine.SceneManagement.SceneManager.LoadScene("NomeDellaScenaGameOver");
+        Debug.Log("Game Over!"); // Messaggio di Game Over in console
+
+        // Attiva il pannello di Game Over (se presente)
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true);
+        }
+
+        // Puoi aggiungere altre azioni di Game Over qui, come:
+        // - Disattivare il target
+        // - Bloccare i controlli del giocatore
+        // - Caricare una scena di Game Over
     }
 }
+
 
