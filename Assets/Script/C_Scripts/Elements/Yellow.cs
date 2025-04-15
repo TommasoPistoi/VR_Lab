@@ -37,13 +37,12 @@ public class Yellow : MonoBehaviour
             }
 
         }
-        if (Inputtesting.Trigger_Right_bool)
+        if (Inputtesting.Trigger_Left_bool && Inputtesting.Indice_Left_bool && !CastingSpell && !Inputtesting.Pollice_Left_bool)
         {
-            if (CastingSpell == false)
-            {
-                Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
-                CastingSpell = true;
-            }
+            
+                        Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
+                        CastingSpell = true;
+               
 
         }
         if (Stop == true)

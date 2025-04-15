@@ -37,13 +37,13 @@ public class Purple : MonoBehaviour
             }
 
         }
-        if (Inputtesting.Pollice_Left_bool)
+        if (Inputtesting.Pollice_Left_bool && !CastingSpell && Inputtesting.Indice_Left_bool && Inputtesting.Trigger_Left_bool)
         {
-            if (CastingSpell == false)
-            {
+            
+            
                 Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
                 CastingSpell = true;
-            }
+            
 
         }
         if (Stop == true)

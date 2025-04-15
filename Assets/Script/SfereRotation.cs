@@ -26,7 +26,7 @@ public class SfereRotation : MonoBehaviour
     void Update()
     {
         //Controlla se un pulsante è premuto
-        if (inputtesting.Indice_Left_bool)
+        /*if (inputtesting.Indice_Left_bool)
         {
             RotateObjects(-rotationAngle);
             Yellow.Rotation = Yellow.Rotation - 30;
@@ -57,15 +57,39 @@ public class SfereRotation : MonoBehaviour
             Water.RotationStrong = Water.RotationStrong + 70;
             Purple.RotationStrong = Purple.RotationStrong + 70;
             Fire.RotationStrong = Fire.RotationStrong + 70;
-        }
+        }*/
     }
 
     public void LeftButtonCalled(){
         RotateObjects(rotationAngle);
+        Yellow.Rotation = Yellow.Rotation + 30;
+        White.Rotation = White.Rotation + 30;
+        Water.Rotation = Water.Rotation + 30;
+        Purple.Rotation = Purple.Rotation + 30;
+        Fire.RotationWeak = Fire.RotationWeak + 30;
+
+
+        Yellow.RotationStrong = Yellow.RotationStrong + 70;
+        White.RotationStrong = White.RotationStrong + 70;
+        Water.RotationStrong = Water.RotationStrong + 70;
+        Purple.RotationStrong = Purple.RotationStrong + 70;
+        Fire.RotationStrong = Fire.RotationStrong + 70;
     }
 
     public void RightButtonCalled(){
         RotateObjects(-rotationAngle);
+        Yellow.Rotation = Yellow.Rotation - 30;
+        White.Rotation = White.Rotation - 30;
+        Water.Rotation = Water.Rotation - 30;
+        Purple.Rotation = Purple.Rotation - 30;
+        Fire.RotationWeak = Fire.RotationWeak - 30;
+
+
+        Yellow.RotationStrong = Yellow.RotationStrong - 70;
+        White.RotationStrong = White.RotationStrong - 70;
+        Water.RotationStrong = Water.RotationStrong - 70;
+        Purple.RotationStrong = Purple.RotationStrong - 70;
+        Fire.RotationStrong = Fire.RotationStrong - 70;
     }
 
 

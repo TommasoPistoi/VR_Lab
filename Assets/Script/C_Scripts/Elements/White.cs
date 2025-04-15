@@ -37,13 +37,13 @@ public class White : MonoBehaviour
             }
 
         }
-        if (Inputtesting.Test_Spell)
+        if (Inputtesting.Trigger_Left_bool && !Inputtesting.Pollice_Left_bool && !Inputtesting.Indice_Left_bool && !CastingSpell)
         {
-            if (CastingSpell == false)
-            {
+           
+            
                 Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
                 CastingSpell = true;
-            }
+            
 
         }
         if (Stop == true)

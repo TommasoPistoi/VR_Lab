@@ -41,13 +41,13 @@ public class Water : MonoBehaviour
                 }
 
             }
-            if (Inputtesting.Pollice_Right_bool)
+            if (Inputtesting.Pollice_Left_bool && !CastingSpell && !Inputtesting.Trigger_Left_bool && !Inputtesting.Indice_Left_bool)
             {
-                if (CastingSpell == false)
-                {
+                
+                
                     Instantiate(EffectWaiting, SpawnWaiting.transform.position, SpawnPosition.transform.rotation);
                     CastingSpell = true;
-                }
+                
 
             }
             if (Stop == true)
