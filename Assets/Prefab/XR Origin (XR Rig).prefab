@@ -3483,6 +3483,7 @@ GameObject:
   - component: {fileID: 6894364222853721905}
   - component: {fileID: 489921044335320372}
   - component: {fileID: 2673453829645800866}
+  - component: {fileID: 5781424167469362859}
   m_Layer: 2
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -3621,6 +3622,14 @@ MonoBehaviour:
   m_AimAssistRequiredSpeed: 0.25
   m_AimAssistPercent: 0.8
   m_AimAssistMaxSpeedPercent: 10
+--- !u!81 &5781424167469362859
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4474856543387366614}
+  m_Enabled: 1
 --- !u!1 &4669512168677098578
 GameObject:
   m_ObjectHideFlags: 0
