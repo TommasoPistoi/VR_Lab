@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    private GameOver gameOver;
     public float speed = 3f; // Velocità di movimento del nemico
     public GameObject Target; // Il target verso cui muoversi
 
@@ -37,7 +38,8 @@ public class EnemyMovement : MonoBehaviour
         // Esempio: distrugge il nemico se colpisce qualcosa con il tag "Obstacle"
         if (collision.gameObject.CompareTag("Target"))
         {
-            DestroyEnemy();
+            gameOver = collision.transform.gameObject.GetComponent<GameOver>();
+            gameOver.TakeDamage();
         }
     }
 }
