@@ -45601,7 +45601,7 @@ MonoBehaviour:
   Enemies:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
   - {fileID: 5629553862372424409, guid: 212aa0a179f36614e93480fc362e0f2a, type: 3}
-  spawnInterval: 5
+  spawnInterval: 10
   maxEnemies: 15
   Target: {fileID: 113449235}
   startSpawnDelay: 0

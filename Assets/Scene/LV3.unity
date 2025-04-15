@@ -23313,8 +23313,8 @@ MonoBehaviour:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
   - {fileID: 1678062181921508955, guid: 60b400447676cf442939e41994eb8c3f, type: 3}
   - {fileID: 5629553862372424409, guid: 212aa0a179f36614e93480fc362e0f2a, type: 3}
-  spawnInterval: 15
-  maxEnemies: 15
+  spawnInterval: 20
+  maxEnemies: 5
   Target: {fileID: 217503084}
   startSpawnDelay: 20
 --- !u!4 &1047672333
@@ -47353,8 +47353,8 @@ MonoBehaviour:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
   - {fileID: 1678062181921508955, guid: 60b400447676cf442939e41994eb8c3f, type: 3}
   - {fileID: 5629553862372424409, guid: 212aa0a179f36614e93480fc362e0f2a, type: 3}
-  spawnInterval: 10
-  maxEnemies: 15
+  spawnInterval: 15
+  maxEnemies: 10
   Target: {fileID: 7128430479102721451}
   startSpawnDelay: 15
 --- !u!114 &5022088939510342036
@@ -47371,9 +47371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemies:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
-  - {fileID: 1678062181921508955, guid: 60b400447676cf442939e41994eb8c3f, type: 3}
+  - {fileID: 6583056322674757183, guid: 3b3986c5a6cb8f446a9642958358acbc, type: 3}
   - {fileID: 5629553862372424409, guid: 212aa0a179f36614e93480fc362e0f2a, type: 3}
-  spawnInterval: 5
+  spawnInterval: 7
   maxEnemies: 15
   Target: {fileID: 7128430479646405812}
   startSpawnDelay: 0

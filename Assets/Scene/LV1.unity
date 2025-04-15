@@ -22800,10 +22800,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemies:
   - {fileID: 5077784753234079179, guid: fd4eca85e3cccd741bac3c56eb96aeaa, type: 3}
-  spawnInterval: 5
+  spawnInterval: 10
   maxEnemies: 15
   Target: {fileID: 1229943768}
-  startSpawnDelay: 0
+  startSpawnDelay: 5
 --- !u!4 &1044021065
 Transform:
   m_ObjectHideFlags: 0
