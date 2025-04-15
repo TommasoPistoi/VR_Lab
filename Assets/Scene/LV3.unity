@@ -5106,7 +5106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 217503086}
   - component: {fileID: 217503085}
-  - component: {fileID: 217503087}
   m_Layer: 0
   m_Name: Target3
   m_TagString: Untagged
@@ -5150,26 +5149,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -22.838, z: 0}
---- !u!114 &217503087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217503084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 188787397}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
 --- !u!1001 &218656901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45335,7 +45314,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8903721863140248893}
   - component: {fileID: 4792694518249633629}
-  - component: {fileID: 9134315384989400280}
   m_Layer: 0
   m_Name: Target2
   m_TagString: Target
@@ -45353,7 +45331,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8903721862593414178}
   - component: {fileID: 4792694519850286658}
-  - component: {fileID: 9134315383387698631}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -45391,46 +45368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -62.234, z: 0}
---- !u!114 &9134315383387698631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7128430479646405812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 188787397}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
---- !u!114 &9134315384989400280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7128430479102721451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 188787397}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
