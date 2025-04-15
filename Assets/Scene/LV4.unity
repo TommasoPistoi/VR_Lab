@@ -18850,7 +18850,6 @@ GameObject:
   m_Component:
   - component: {fileID: 908028658}
   - component: {fileID: 908028657}
-  - component: {fileID: 908028656}
   m_Layer: 0
   m_Name: Target2
   m_TagString: Target
@@ -18858,26 +18857,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &908028656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908028655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 0}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
 --- !u!65 &908028657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21850,7 +21829,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1029428307}
   - component: {fileID: 1029428306}
-  - component: {fileID: 1029428305}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -21858,26 +21836,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1029428305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029428304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 0}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
 --- !u!65 &1029428306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36206,7 +36164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1699183283}
   - component: {fileID: 1699183282}
-  - component: {fileID: 1699183284}
   m_Layer: 0
   m_Name: Target3
   m_TagString: Untagged
@@ -36250,26 +36207,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -22.838, z: 0}
---- !u!114 &1699183284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699183281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8ec089bf3e29d4ca909eaf332583f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  gameOverUI: {fileID: 542347015}
-  EnemyTags:
-  - Green
-  - Dark
-  - Light
-  - Blu
-  - Red
 --- !u!1001 &1702711592
 PrefabInstance:
   m_ObjectHideFlags: 0
