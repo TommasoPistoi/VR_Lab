@@ -25,7 +25,7 @@ public class inputtesting : MonoBehaviour
     {
         if (trigger_Left.action.IsPressed())
         {
-           
+
             Trigger_Left_bool = true;
         }
         else
@@ -33,7 +33,7 @@ public class inputtesting : MonoBehaviour
             Trigger_Left_bool = false;
         }
 
-      
+
 
 
         if (trigger_right.action.IsPressed())
@@ -90,7 +90,7 @@ public class inputtesting : MonoBehaviour
             Indice_Right_bool = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
+        /*if (Input.GetKeyDown(KeyCode.B))
         {
             Debug.Log("Aiuto");
             Trigger_Left_bool = true;
@@ -161,5 +161,7 @@ public class inputtesting : MonoBehaviour
         {
             Indice_Right_bool = false;
         }
+    }
+}*/
     }
 }
